@@ -22,9 +22,9 @@ if (attacking)
 		sprite_index = spr_player_attack_right
 		image_xscale = -1
 	} else if yprevious < y {
-		sprite_index = spr_player_attack_up
-	} else if yprevious > y {
 		sprite_index = spr_player_attack_down
+	} else if yprevious > y {
+		sprite_index = spr_player_attack_up
 	} else if yprevious == y or xprevious == x {
 		sprite_index = spr_player_idle
 	}

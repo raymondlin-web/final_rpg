@@ -42,3 +42,7 @@ if (keyboard_check(vk_space))
 {
 	attacking = true;
 }
+else
+{
+	attacking = false;
+}
