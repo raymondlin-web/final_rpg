@@ -1,6 +1,25 @@
 
 event_inherited();
 
+if (healthLeft == 0)
+{
+	instance_destroy(obj_player);
+}
+
+if (keyboard_check(ord("Y")))
+{
+	healthLeft--;
+}
+
+if (keyboard_check(ord("E")) && (evolutionProgress == evolutionProgressGoal))
+{
+	playerSpecies = "orc";
+	Evolve();
+	
+	evolutionProgress = 0;
+}
+
+
 if keyboard_check(ord("W")){ // 90 degree angle to move up
 	attacking = false;
 	move_dir = 90
