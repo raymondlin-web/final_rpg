@@ -25,6 +25,8 @@ function Evolve()
 		spriteAttackRight = spr_orc_attack_right;
 
 		spriteIdle = spr_orc_idle;
+		
+		sprite_index = spriteIdle;
 	}
 
 }
