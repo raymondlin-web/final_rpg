@@ -2,14 +2,13 @@
 // You can write your code in this editor
 
 tempEnemy = other;
+attackCollided = true;
 
-if ((attacking) && (tempEnemy.hitByAttack == false))
+if ((attacking == true) && (tempEnemy.hitByAttack == false))
 {
 	other.image_blend = c_red;
 
 	other.hitByAttack = true;
 
-	alarm[0] = room_speed / 16;
-	
-	AttackSlash(other, slashDamage);
+	alarm[0] = attackTimer;
 }

@@ -41,7 +41,7 @@
     "spriteId": {"name":"spr_orc_attack_up","path":"sprites/spr_orc_attack_up/spr_orc_attack_up.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 4.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

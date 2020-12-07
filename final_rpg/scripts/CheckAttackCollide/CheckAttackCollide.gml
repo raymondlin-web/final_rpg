@@ -4,6 +4,8 @@ function CheckAttackCollide(enemyCheck, damageDealt)
 {
 	if (sprDirection == "up")
 	{
+		sprite_index = spriteAttackUp;
+		
 		if ((y + sprite_get_height(spr_player_attack_up)) > enemyCheck.y)
 		{
 			enemyCheck.healthLeft -= damageDealt;
@@ -11,6 +13,8 @@ function CheckAttackCollide(enemyCheck, damageDealt)
 	}
 	else if (sprDirection == "left")
 	{
+		sprite_index = spriteAttackRight;
+		
 		if ((x + sprite_get_width(spr_player_attack_right)) > enemyCheck.x)
 		{
 			enemyCheck.healthLeft -= damageDealt;
@@ -18,6 +22,8 @@ function CheckAttackCollide(enemyCheck, damageDealt)
 	}
 	else if (sprDirection == "right")
 	{
+		sprite_index = spriteAttackRight;
+		
 		if ((x - sprite_get_width(spr_player_attack_right)) < enemyCheck.x)
 		{
 			enemyCheck.healthLeft -= damageDealt;
@@ -25,6 +31,8 @@ function CheckAttackCollide(enemyCheck, damageDealt)
 	}
 	else if (sprDirection == "down")
 	{
+		sprite_index = spriteAttackDown;
+		
 		if ((y - sprite_get_height(spr_player_attack_down)) < enemyCheck.y)
 		{
 			enemyCheck.healthLeft -= damageDealt;

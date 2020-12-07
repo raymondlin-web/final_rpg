@@ -1,11 +1,33 @@
 event_inherited();
 
-healthLeft = 5;
+alarm[0] = -1;
+alarm[1] = -1;
+
+state = "wander";
+
+// Misc
+
+healthLeft = 10;
 maxHealth = healthLeft;
+
+
+// Attack Params
+
+attackRadius = 20;
+
+attacking = false;
+
+attackTimer = 20;
+
+attackCollided = false;
+
+hitByAttack = false;
+
+// Movement
 
 sprDirection = "down";
 
-mspd = 1.5
+target = pointer_null;
 
 move_dir = 0
 
@@ -17,10 +39,8 @@ y_remainder = 0
 
 bumped_into_something = false
 
-attacking = false;
-
 path = path_add()
-mspd = 0.5
+mspd = 0.5;
 wait_at_location = room_speed;
 curr_wait_time = 0
 

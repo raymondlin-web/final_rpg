@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"EnemyFunctions","path":"scripts/EnemyFunctions/EnemyFunctions.yy",},"order":5,},
     {"id":{"name":"spr_orc_idle","path":"sprites/spr_orc_idle/spr_orc_idle.yy",},"order":29,},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},"order":14,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":2,},

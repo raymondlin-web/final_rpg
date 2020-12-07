@@ -60,8 +60,6 @@ or keyboard_check(ord("D")){		// if pressing any move keys, move player!
 if (keyboard_check(vk_space))
 {
 	attacking = true;
-}
-else
-{
-	attacking = false;
+	
+	alarm[1] = 20;
 }

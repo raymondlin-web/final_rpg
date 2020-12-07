@@ -5,7 +5,7 @@ if (room == rm_town)
 {
 	
 	
-	if (totalOrcs < 20)
+	if (totalOrcs < 5)
 	{
 		getDestination();
 		instance_create_layer(des_x, des_y, "Instances", obj_enemy);

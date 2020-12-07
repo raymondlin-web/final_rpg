@@ -13,6 +13,8 @@ function Evolve()
 		spriteAttackRight = spr_player_attack_right;
 
 		spriteIdle = spr_player_idle;
+		
+		sprite_index = spriteIdle;
 	}
 	else if (playerSpecies == "orc")
 	{

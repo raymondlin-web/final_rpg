@@ -12,17 +12,22 @@ y_remainder = 0
 
 bumped_into_something = false
 
-attacking = false;
-
-hitByAttack = -1;
-
-slashDamage = 1;
-
 returnColor = false;
 
 tempEnemy = pointer_null;
 
+
+// Attacks
+
 typeOfAttack = "slash";
+
+attackRadius = 5;
+
+attacking = false;
+
+hitByAttack = false;
+
+slashDamage = 1;
 
 
 // Player Specifics Stats
@@ -30,7 +35,7 @@ typeOfAttack = "slash";
 healthLeft = 10;
 maxHealth = healthLeft;
 
-evolutionProgress = 9;
+evolutionProgress = 0;
 evolutionProgressGoal = 10;
 
 playerSpecies = "goblin";
@@ -38,16 +43,16 @@ playerSpecies = "goblin";
 // GUI
 
 //Health Bar
-healthbarWidth = 32;
-healthbarHeight = 32;
-healthbarX = 100;
-healthbarY = 425;
+healthbarWidth = 148;
+healthbarHeight = 30;
+healthbarX = 25;
+healthbarY = 50;
 
 //Evolution Bar
-evolutionbarWidth = 32;
-evolutionbarHeight = 32;
-evolutionbarX = 600;
-evolutionbarY = 425;
+evolutionbarWidth = 148;
+evolutionbarHeight = 30;
+evolutionbarX = 25;
+evolutionbarY = 100;
 
 // Icons
 
