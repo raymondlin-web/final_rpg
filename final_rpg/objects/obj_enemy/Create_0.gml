@@ -10,6 +10,9 @@ state = "wander";
 healthLeft = 10;
 maxHealth = healthLeft;
 
+healthbarHeight = 2;
+healthbarWidth = 20;
+
 
 // Attack Params
 
