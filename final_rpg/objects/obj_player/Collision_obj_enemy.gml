@@ -11,7 +11,5 @@ if ((attacking) && (tempEnemy.hitByAttack == false))
 
 	alarm[0] = room_speed / 16;
 	
-	//instance_create_layer(x, y, "Instances", obj_damageCounter);
-	
 	AttackSlash(other, slashDamage);
 }
