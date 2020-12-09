@@ -29,6 +29,8 @@ if (attacking)
 }
 else
 {
+	tempEnemy.image_blend = -1;
+	
 	if (xprevious < x)
 	{
 		sprite_index = spriteWalkRight;

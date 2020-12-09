@@ -10,5 +10,5 @@ if ((attacking == true) && (tempEnemy.hitByAttack == false))
 
 	other.hitByAttack = true;
 
-	alarm[0] = attackTimer;
+	alarm[0] = attackTimer / 2;
 }
