@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 8,
+  "gridY": 8,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"0415358e-029d-417a-839a-5835292ce553","path":"sprites/spr_orc_idle/spr_orc_idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"0415358e-029d-417a-839a-5835292ce553","path":"sprites/spr_orc_idle/spr_orc_idle.yy",},"LayerId":{"name":"03318e30-28c6-4786-892a-38a8c3bcedfe","path":"sprites/spr_orc_idle/spr_orc_idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},

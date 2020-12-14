@@ -18,6 +18,7 @@
     {"id":{"name":"spr_orc_attack_down","path":"sprites/spr_orc_attack_down/spr_orc_attack_down.yy",},"order":39,},
     {"id":{"name":"spr_tileset_forest","path":"sprites/spr_tileset_forest/spr_tileset_forest.yy",},"order":42,},
     {"id":{"name":"tile_forest","path":"tilesets/tile_forest/tile_forest.yy",},"order":1,},
+    {"id":{"name":"spr_evolution","path":"sprites/spr_evolution/spr_evolution.yy",},"order":45,},
     {"id":{"name":"spr_orc_down","path":"sprites/spr_orc_down/spr_orc_down.yy",},"order":30,},
     {"id":{"name":"spr_player_walk_front","path":"sprites/spr_player_walk_front/spr_player_walk_front.yy",},"order":16,},
     {"id":{"name":"spr_forest","path":"sprites/spr_forest/spr_forest.yy",},"order":35,},
